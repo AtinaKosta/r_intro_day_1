@@ -30,4 +30,5 @@ penguins |>
     na.omit() |> #remove the NAs and THEN
     view()
 
+
 ```
