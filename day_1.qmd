@@ -30,5 +30,16 @@ penguins |>
     na.omit() |> #remove the NAs and THEN
     view()
 
+penguins2 <- read_csv(file = "penguin_dataset")
+
+
+glimpse(penguins)
+
+count(penguins$island)
+
+penguins |> count(island)
+
+
+
 
 ```
