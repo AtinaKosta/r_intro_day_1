@@ -1,0 +1,18 @@
+---
+title: "Intro to R Day 1"
+format: html
+---
+
+
+
+```{r}
+## Setup
+
+### Packages
+install.packages('tidyverse')
+
+library(tidyverse)
+
+tidyverse_packages()
+
+```
