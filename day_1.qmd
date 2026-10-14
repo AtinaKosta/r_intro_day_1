@@ -15,4 +15,19 @@ library(tidyverse)
 
 tidyverse_packages()
 
+read_csv(file = "data/penguin_dataset.csv")
+
+penguins <- read_csv(file = "data/penguin_dataset.csv")
+
+penguins |> head()
+penguins |> tail()
+penguins |> View()
+penguins |> summary()
+penguins |> colnames()
+penguins |> dim()
+
+penguins |>
+    na.omit() |> #remove the NAs and THEN
+    view()
+
 ```
